@@ -1,0 +1,123 @@
+<html>
+<head>
+    <title>Curso JavaScript - Manipulando a DOM</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <style>
+        body{
+            background-color: black;
+            color: #bbb;
+        }
+        body h1{
+            text-align: center ;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="container">
+        <h1>ES6+</h1>
+
+        <ul>
+            <h3>Resumo - Vídeo 12 - Object Short Syntax</h3>
+            <li>Utilizado para reduzir o tamanho do código ao adicionar propriedades à um objeto</li>
+        </ul>
+
+        <ul>
+            <h3>Resumo - Vídeo 11 - Template Literals</h3>
+            <li>Incluir variaveis em strings</li>
+            <li>Mais eficiente que utilizar o + para contatenações.</li>
+            <li>Utiliza-se CRASE no lugar das aspas e ${variavel} para variáveis</li>
+        </ul>
+
+        <ul>
+            <h3>Resumo - Vídeo 10 - Operadores Rest/Spread</h3>
+            <li>Sintaxe REST: const arr = [1, 2, 3, 4]; ~ const [ a, b, ...resto ] = arr;</li>
+            <li>Exemplo REST: Pega os 'restos' dos elementos de um array ou objeto e atribui em uma variável</li>
+            <li>REST: Pode ser utilizado em parâmetro de funções function soma (...params){ ...} </li>
+            <li>SPREAD: Propaga informação de um array ou objeto para outra estrutura de dados. Também utiliza-se ...</li>
+        </ul>
+
+        <ul>
+            <h3>Resumo - Vídeo 9 - Desestruturação</h3>
+            <li>Sintaxe: const { nome, idade, endereco: { cidade, estado } } = usuario; onde nome e idade são propriedades do objeto usuario</li>
+            <li>Pode ser utilizado em funções</li>
+        </ul>
+
+        <ul>
+            <h3>Resumo - Vídeo 8 - Valores padrão</h3>
+            <li>function soma(a = 2, b = 1){} -> Valores padrões em parâmetros de funções</li>
+            <li>Funciona em Arrow Functions</li>
+        </ul>
+
+        <ul>
+            <h3>Resumo - Vídeo 7 - Arrow Function</h3>
+            <li>Sintaxe simplificada em funções anônimas</li>
+        </ul>
+
+        <ul>
+            <h3>Resumo - Vídeo 6 - Operação em Array</h3>
+            <li>vetor.map(função(item,índice)) -> Percorre cada item do vetor e executa alguma ação.</li>
+            <li>vetor.reduce() -> Percorre todo o vetor e retorna apenas uma informação (ex: soma dos itens)</li>
+            <li>vetor.filter() -> Retorna alguma informação do vetor que for true e remove false</li>
+            <li>vetor.find() -> Verifica se existe alguma informação no vetor ou encontra algo no vetor</li>
+        </ul>
+
+        <ul>
+            <h3>Resumo - Vídeo 5 - Const / Let / Var</h3>
+            <li>const -> Constante. Não pode ter o valor alterado. É mutável. Propriedades podem ser alterados. Ex: array</li>
+            <li>let -> Variável de escopo. Tem valor apenas em um escopo. Ex: Funções</li>
+            <li>var -> Variável global</li>
+        </ul>
+        <ul>
+            <h3>Resumo - Vídeo 4 - Classes / Constructor / Static</h3>
+            <li>constructor( ){...} -> Executado no momento em que o objeto é instanciado. </li>
+            <li>super( ) -> Permite que classes herdeiras executem o construtor da classe pai.</li>
+            <li>static -> recebe informação e retorna algo independente do resto da classe. não é instanciável. Apenas para auxílio.</li>
+        </ul>
+
+        <ul>
+            <h3>Resumo - Vídeo 3 - Configurações Babel</h3>
+            <li>package.json: armazena informações das dependencias instaladas. Instalado através do comando yarn init</li>
+            <li>Babel: Transforma features do ES7 ou ES8 para navegadores que não possuem suporte</li>
+            <li>yarn add @babel/cli -> Permite a utilização do babel em linha de comando</li>
+            <li>yarn add @babel/preset-env -> Define o ambiente de trabalho, no caso, o navegador (preset)</li>
+            <li>Configurar Babel: criar arquivo .babelrc na raiz do projeto</li>
+            <li>yarn.lock -> cache do babel</li>
+            <li>Script no package.JSON -> permite executar scripts a partir do terminal</li>
+            <li>Script dev no package.JSON faz a conversão do JS com ES6+ para navegadores sem suporte.</li>
+            <li>-w no fim do Script -> Atualiza automaticamente, em vez de executar o yarn dev sempre.</li>
+            <li>bundle.js -> arquivo que é interpretado pelo navegador com as funcionalidades do ES6+</li>
+        </ul>
+
+        <ul>
+           <h3>Resumo - Vídeo 2 - ES6+ / NodeJS / Yarn</h3>    
+           <li>Ecma Script Versão 6+: Atualizações do JavaScript</li>
+           <li>NodeJS: Software open-source, cross-platform, e de um runtime de JavaScript que execute código de JavaScript a nível backend e frontend. </li>
+           <li>Yarn: Gerenciador de pacotes do JavaScript. Auxilia na instalação de componentes JavaScript de terceiros.</li>
+        </ul>
+       
+            
+        </br>
+        <ul>
+            <h4>Extra: Passo a passo da configuração do Babel</h4>
+            <li>Na raiz do projeto -> yarn init</li>
+            <li>Instalar dependências -> yarn add @babel/cli / yarn add @babel/preset-env / yarn add @babel/core/</li>
+            <li>Criar arquivo .babelrc -> para configurar o Babel</li>
+            <li>Conteúdo do .babelrc -> "presets" : ["@babel/preset-env"]</li>
+            <li>Criar arquivos html(index) e js(main)</li>
+            <li>No package.JSON -> Criar "scripts" : { "dev" : "babel ./main.js -o ./bundle.js -w" }</li>
+            <li>Executar no terminal: yarn dev para converter o main.js para bundle.js</li>
+
+        </ul>
+        
+
+    </div>
+
+</body>
+</html>
