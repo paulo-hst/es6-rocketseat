@@ -10,9 +10,6 @@ Curso introdutório da Rocketseat que define os recursos das últimas versões d
 - Axios
 - Webpack Server
 
-## Status
-- [x] Concluído - 23/09/2020
-
 ## Conteúdo do curso
 ### Módulo 1 - Conceitos
 - Instalando Node & Yarn
@@ -26,15 +23,21 @@ Curso introdutório da Rocketseat que define os recursos das últimas versões d
 - Operadores rest/spread
 - Template Literals
 - Object Short Syntax
+
 ### Módulo 2 - Webpack Server
 - Configurando Webpack
 - Import/export
 - Webpack dev server
+
 ### Módulo 3 - Async/await
 - Async/await
 - Configurando axios
+
 ### Módulo 4 - Aplicação com ES6+
 - Estrutura e estilos
 - Adicionar repositórios
 - Render em tela
 - Buscando da API
+
+## Status
+- [x] Concluído - 07/12/2020
