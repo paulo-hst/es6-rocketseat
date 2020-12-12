@@ -44,3 +44,6 @@ Curso introdutório da Rocketseat que define os recursos das últimas versões d
 
 ## Status
 - [x] Concluído - 07/12/2020
+
+## Links
+- [Rocketseat](https://rocketseat.com.br/)
