@@ -1,5 +1,7 @@
-# Curso JavaScript ES6+ Starter - Rocketseat
- 
+# JavaScript ES6+ - Rocketseat Starter 
+<h1 align="center">
+  <img alt="es6" title="es6" src="./app.png" width="500px"/>
+</h1>
 ## Objetivo
 Curso introdutório da Rocketseat que define os recursos das últimas versões do EcmaScript. 
 
