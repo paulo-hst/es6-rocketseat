@@ -1,4 +1,4 @@
-# JavaScript ES6+ - Rocketseat Starter 
+<h1 align="center">JavaScript ES6+ - Rocketseat Starter</h1>
 <h1 align="center">
   <img alt="es6" title="es6" src="./app.png" width="400px"/>
 </h1>
