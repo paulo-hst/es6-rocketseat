@@ -4,7 +4,7 @@
 </h1>
 
 ## Objetivo
-Curso introdutório da Rocketseat que define os recursos das últimas versões do EcmaScript. 
+Conteúdo e exercícios resolvidos do curso introdutório da Rocketseat que define os recursos das últimas versões do EcmaScript (JavaScript). 
 
 ## Tecnologias / Ferramentas / Bibliotecas
 - JavaScript
